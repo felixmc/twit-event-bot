@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{title}}</title>
+	</head>
+	<body>
+		<h1>{{title}}</h1>
+		<p>
+			<a href="{{routes.home}}">Home</a> | 
+		{{#if user}}
+			<a href="{{routes.profile}}">Profile</a> | 
+			<a href="{{routes.logout}}">Log Out</a>
+		{{else}}
+			<a href="{{routes.login}}">Log In</a>
+		{{/if}}
+		</p>
+		{{{body}}}
+	</body>
+</html>

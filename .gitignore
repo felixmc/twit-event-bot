@@ -1,0 +1,4 @@
+node_modules/
+.*.sw*
+config.json
+accounts.json
